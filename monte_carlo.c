@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <math.h>
 
-float mc_pi(int); //hello
-
 float frandom() {
   long int q = random();
   float ret = (float)q/(float)RAND_MAX;
