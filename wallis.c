@@ -4,7 +4,7 @@
 #include <math.h>
 
 
-float wallis_pi(int n);
+float wallis_pi(int n)
 { float pi=1.0;
  for (int i=1;i<=n;i++)
  {
